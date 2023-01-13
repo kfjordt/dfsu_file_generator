@@ -1,0 +1,68 @@
+{
+    "meshfile": "4000x4000_d=4000",
+    "exportpath": "exports/bingo3.dfsu",
+    "starttime": "2023-01-12-12-00-00",
+    "stepsize": 3600,
+    "amount_of_timesteps": 30,
+    "displacement_factor":  50,
+    "tsunamis": {
+        "tsunami2": {
+            "type": "line",
+            "startpoint": [
+                5,
+                10
+            ],
+            "endpoint": [
+                10,
+                5
+            ],
+            "thickness": 2,
+            "plot": 1
+        },
+        "tsunami3": {
+            "type": "line",
+            "startpoint": [
+                10,
+                5
+            ],
+            "endpoint": [
+                25,
+                5
+            ],
+            "thickness": 2,
+            "plot": 1
+        }, 
+        "tsunami4": {
+            "type": "line",
+            "startpoint": [
+                25,
+                5
+            ],
+            "endpoint": [
+                30,
+                10
+            ],
+            "thickness": 2,
+            "plot": 1
+        },
+        "tsunami5": {
+            "type": "circle",
+            "center": [
+                25,
+                20
+            ],
+            "radius": 3,
+            "plot": 0
+        },
+        "tsunami6": {
+            "type": "circle",
+            "center": [
+                10,
+                20
+            ],
+            "radius": 3,
+            "plot": 0
+        }
+    }
+    
+}
